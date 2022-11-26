@@ -36,29 +36,29 @@
 		<item name="blog.blog.searchAllBlogs"><![CDATA[جستجو در وبلاگ ها]]></item>
 		<item name="blog.blog.searchBlog"><![CDATA[جستجو در وبلاگ]]></item>
 		<item name="blog.blog.showAll"><![CDATA[نمایش همه وبلاگ ها]]></item>
-		<item name="blog.blog.sortField.cumulativeLikes"><![CDATA[Reactions]]></item>
-		<item name="blog.blog.sortField.entries"><![CDATA[Articles]]></item>
-		<item name="blog.blog.sortField.lastUpdateTime"><![CDATA[Last Updated]]></item>
-		<item name="blog.blog.sortField.subscribers"><![CDATA[Subscribers]]></item>
-		<item name="blog.blog.sortField.title"><![CDATA[Title]]></item>
-		<item name="blog.blog.sortField.views"><![CDATA[Views]]></item>
-		<item name="blog.blog.subscribers"><![CDATA[Subscribers]]></item>
-		<item name="blog.blog.subscribers.label"><![CDATA[{plural value=$blog->subscribers one='# Subscriber' other='# Subscribers'}]]></item>
+		<item name="blog.blog.sortField.cumulativeLikes"><![CDATA[واکنش ها]]></item>
+		<item name="blog.blog.sortField.entries"><![CDATA[مقاله ها]]></item>
+		<item name="blog.blog.sortField.lastUpdateTime"><![CDATA[آخرین بروز رسانی]]></item>
+		<item name="blog.blog.sortField.subscribers"><![CDATA[مشترکین]]></item>
+		<item name="blog.blog.sortField.title"><![CDATA[عنوان]]></item>
+		<item name="blog.blog.sortField.views"><![CDATA[نمایش دهندگان]]></item>
+		<item name="blog.blog.subscribers"><![CDATA[مشتکرین]]></item>
+		<item name="blog.blog.subscribers.label"><![CDATA[{plural value=$blog->subscribers one='# مشترک' other='# مشترکین'}]]></item>
 	</category>
 	<category name="blog.category">
-		<item name="blog.category.delete.sure"><![CDATA[Do you really want to delete this category? All child categories of this category will be moved to this category’s parent category. Articles which are only in this category will be deleted.]]></item>
+		<item name="blog.category.delete.sure"><![CDATA[آیا می خواهید این بخش را حذف کنید؟ با حذف این بخش کلیه زیر بخش ها و مقالات حذف می شود.]]></item>
 	</category>
 	<category name="blog.entry">
-		<item name="blog.entry.add"><![CDATA[Create Blog Article]]></item>
-		<item name="blog.entry.bbcode.type"><![CDATA[Blog Article]]></item>
-		<item name="blog.entry.blog"><![CDATA[Blog]]></item>
-		<item name="blog.entry.boxList.description.comments"><![CDATA[{plural value=$boxEntry->comments one='# Comment' other='# Comments'}]]></item>
+		<item name="blog.entry.add"><![CDATA[ایجاد مقاله]]></item>
+		<item name="blog.entry.bbcode.type"><![CDATA[مقاله وبلاگ]]></item>
+		<item name="blog.entry.blog"><![CDATA[وبلاگ]]></item>
+		<item name="blog.entry.boxList.description.comments"><![CDATA[{plural value=$boxEntry->comments one='# نظر' other='# نظرات'}]]></item>
 		<item name="blog.entry.boxList.description.time"><![CDATA[{user object=$boxEntry->getUserProfile()} <span class="separatorLeft">{@$boxEntry->time|time}</span>]]></item>
-		<item name="blog.entry.button.add"><![CDATA[Create Article]]></item>
-		<item name="blog.entry.button.jumpToEntryThread"><![CDATA[Discussion Thread]]></item>
-		<item name="blog.entry.button.publish"><![CDATA[Publish]]></item>
-		<item name="blog.entry.button.saveAsDraft"><![CDATA[Save Draft]]></item>
-		<item name="blog.entry.categories"><![CDATA[Categories]]></item>
+		<item name="blog.entry.button.add"><![CDATA[ایجاد مقاله]]></item>
+		<item name="blog.entry.button.jumpToEntryThread"><![CDATA[بحث مرتبط]]></item>
+		<item name="blog.entry.button.publish"><![CDATA[منتشر کردن]]></item>
+		<item name="blog.entry.button.saveAsDraft"><![CDATA[ذخیره به عنوان پیشنویس]]></item>
+		<item name="blog.entry.categories"><![CDATA[بخش ها]]></item>
 		<item name="blog.entry.categories.error.tooMany"><![CDATA[You have selected too many categories. You can select up to {@BLOG_ENTRY_MAX_CATEGORIES} {if BLOG_ENTRY_MAX_CATEGORIES == 1}category{else}categories{/if}.]]></item>
 		<item name="blog.entry.categorizedEntries"><![CDATA[Blog Articles in Category “{$category->getTitle()}”]]></item>
 		<item name="blog.entry.comment"><![CDATA[Blog Article Comment]]></item>
