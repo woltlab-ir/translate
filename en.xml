@@ -59,12 +59,12 @@
 		<item name="blog.entry.button.publish"><![CDATA[منتشر کردن]]></item>
 		<item name="blog.entry.button.saveAsDraft"><![CDATA[ذخیره به عنوان پیشنویس]]></item>
 		<item name="blog.entry.categories"><![CDATA[بخش ها]]></item>
-		<item name="blog.entry.categories.error.tooMany"><![CDATA[You have selected too many categories. You can select up to {@BLOG_ENTRY_MAX_CATEGORIES} {if BLOG_ENTRY_MAX_CATEGORIES == 1}category{else}categories{/if}.]]></item>
-		<item name="blog.entry.categorizedEntries"><![CDATA[Blog Articles in Category “{$category->getTitle()}”]]></item>
-		<item name="blog.entry.comment"><![CDATA[Blog Article Comment]]></item>
-		<item name="blog.entry.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> reacted to your comment on the blog article <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="blog.entry.comment.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} reacted to your comment on the blog article <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="blog.entry.comment.like.notification.title"><![CDATA[Reaction to a comment (Blog Article)]]></item>
+		<item name="blog.entry.categories.error.tooMany"><![CDATA[شما تعداد زیادی بخش دارید. تعداد بخش های شما {@BLOG_ENTRY_MAX_CATEGORIES} {if BLOG_ENTRY_MAX_CATEGORIES == 1}{else}بخش می باشد{/if}.]]></item>
+		<item name="blog.entry.categorizedEntries"><![CDATA[مقالات در بخش “{$category->getTitle()}”]]></item>
+		<item name="blog.entry.comment"><![CDATA[نظرات مقاله در وبلاگ]]></item>
+		<item name="blog.entry.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> به نظر شما واکنش نشان داده است. <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="blog.entry.comment.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} به نظر شما واکنش نشان داده است <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="blog.entry.comment.like.notification.title"><![CDATA[واکنش به نظر (مقاله وبلاگ)]]></item>
 		<item name="blog.entry.comment.like.notification.title.stacked"><![CDATA[{#$count} users reacted to your comment (Blog Article)]]></item>
 		<item name="blog.entry.comment.notification.mail.html"><![CDATA[<p>{@$authorList} commented on your blog article <a href="{$entry->getLink()}#comment{@$commentID}">{$entry->getTitle()}</a>:</p>]]></item>
 		<item name="blog.entry.comment.notification.mail.plaintext"><![CDATA[{@$authorList} commented on your blog article “{@$entry->getTitle()}” [URL:{@$entry->getLink()}#comment{@$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
