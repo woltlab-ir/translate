@@ -36,41 +36,41 @@
 		<item name="blog.blog.searchAllBlogs"><![CDATA[جستجو در وبلاگ ها]]></item>
 		<item name="blog.blog.searchBlog"><![CDATA[جستجو در وبلاگ]]></item>
 		<item name="blog.blog.showAll"><![CDATA[نمایش همه وبلاگ ها]]></item>
-		<item name="blog.blog.sortField.cumulativeLikes"><![CDATA[Reactions]]></item>
-		<item name="blog.blog.sortField.entries"><![CDATA[Articles]]></item>
-		<item name="blog.blog.sortField.lastUpdateTime"><![CDATA[Last Updated]]></item>
-		<item name="blog.blog.sortField.subscribers"><![CDATA[Subscribers]]></item>
-		<item name="blog.blog.sortField.title"><![CDATA[Title]]></item>
-		<item name="blog.blog.sortField.views"><![CDATA[Views]]></item>
-		<item name="blog.blog.subscribers"><![CDATA[Subscribers]]></item>
-		<item name="blog.blog.subscribers.label"><![CDATA[{plural value=$blog->subscribers one='# Subscriber' other='# Subscribers'}]]></item>
+		<item name="blog.blog.sortField.cumulativeLikes"><![CDATA[واکنش ها]]></item>
+		<item name="blog.blog.sortField.entries"><![CDATA[مقاله ها]]></item>
+		<item name="blog.blog.sortField.lastUpdateTime"><![CDATA[آخرین بروز رسانی]]></item>
+		<item name="blog.blog.sortField.subscribers"><![CDATA[مشترکین]]></item>
+		<item name="blog.blog.sortField.title"><![CDATA[عنوان]]></item>
+		<item name="blog.blog.sortField.views"><![CDATA[نمایش دهندگان]]></item>
+		<item name="blog.blog.subscribers"><![CDATA[مشتکرین]]></item>
+		<item name="blog.blog.subscribers.label"><![CDATA[{plural value=$blog->subscribers one='# مشترک' other='# مشترکین'}]]></item>
 	</category>
 	<category name="blog.category">
-		<item name="blog.category.delete.sure"><![CDATA[Do you really want to delete this category? All child categories of this category will be moved to this category’s parent category. Articles which are only in this category will be deleted.]]></item>
+		<item name="blog.category.delete.sure"><![CDATA[آیا می خواهید این بخش را حذف کنید؟ با حذف این بخش کلیه زیر بخش ها و مقالات حذف می شود.]]></item>
 	</category>
 	<category name="blog.entry">
-		<item name="blog.entry.add"><![CDATA[Create Blog Article]]></item>
-		<item name="blog.entry.bbcode.type"><![CDATA[Blog Article]]></item>
-		<item name="blog.entry.blog"><![CDATA[Blog]]></item>
-		<item name="blog.entry.boxList.description.comments"><![CDATA[{plural value=$boxEntry->comments one='# Comment' other='# Comments'}]]></item>
+		<item name="blog.entry.add"><![CDATA[ایجاد مقاله]]></item>
+		<item name="blog.entry.bbcode.type"><![CDATA[مقاله وبلاگ]]></item>
+		<item name="blog.entry.blog"><![CDATA[وبلاگ]]></item>
+		<item name="blog.entry.boxList.description.comments"><![CDATA[{plural value=$boxEntry->comments one='# نظر' other='# نظرات'}]]></item>
 		<item name="blog.entry.boxList.description.time"><![CDATA[{user object=$boxEntry->getUserProfile()} <span class="separatorLeft">{@$boxEntry->time|time}</span>]]></item>
-		<item name="blog.entry.button.add"><![CDATA[Create Article]]></item>
-		<item name="blog.entry.button.jumpToEntryThread"><![CDATA[Discussion Thread]]></item>
-		<item name="blog.entry.button.publish"><![CDATA[Publish]]></item>
-		<item name="blog.entry.button.saveAsDraft"><![CDATA[Save Draft]]></item>
-		<item name="blog.entry.categories"><![CDATA[Categories]]></item>
-		<item name="blog.entry.categories.error.tooMany"><![CDATA[You have selected too many categories. You can select up to {@BLOG_ENTRY_MAX_CATEGORIES} {if BLOG_ENTRY_MAX_CATEGORIES == 1}category{else}categories{/if}.]]></item>
-		<item name="blog.entry.categorizedEntries"><![CDATA[Blog Articles in Category “{$category->getTitle()}”]]></item>
-		<item name="blog.entry.comment"><![CDATA[Blog Article Comment]]></item>
-		<item name="blog.entry.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> reacted to your comment on the blog article <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="blog.entry.comment.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} reacted to your comment on the blog article <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="blog.entry.comment.like.notification.title"><![CDATA[Reaction to a comment (Blog Article)]]></item>
-		<item name="blog.entry.comment.like.notification.title.stacked"><![CDATA[{#$count} users reacted to your comment (Blog Article)]]></item>
+		<item name="blog.entry.button.add"><![CDATA[ایجاد مقاله]]></item>
+		<item name="blog.entry.button.jumpToEntryThread"><![CDATA[بحث مرتبط]]></item>
+		<item name="blog.entry.button.publish"><![CDATA[منتشر کردن]]></item>
+		<item name="blog.entry.button.saveAsDraft"><![CDATA[ذخیره به عنوان پیشنویس]]></item>
+		<item name="blog.entry.categories"><![CDATA[بخش ها]]></item>
+		<item name="blog.entry.categories.error.tooMany"><![CDATA[شما تعداد زیادی بخش دارید. تعداد بخش های شما {@BLOG_ENTRY_MAX_CATEGORIES} {if BLOG_ENTRY_MAX_CATEGORIES == 1}{else}بخش می باشد{/if}.]]></item>
+		<item name="blog.entry.categorizedEntries"><![CDATA[مقالات در بخش “{$category->getTitle()}”]]></item>
+		<item name="blog.entry.comment"><![CDATA[نظرات مقاله در وبلاگ]]></item>
+		<item name="blog.entry.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> به نظر شما واکنش نشان داده است. <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="blog.entry.comment.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} به نظر شما واکنش نشان داده است <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="blog.entry.comment.like.notification.title"><![CDATA[واکنش به نظر (مقاله وبلاگ)]]></item>
+		<item name="blog.entry.comment.like.notification.title.stacked"><![CDATA[{#$count} کاربر به پشت وبلاگ شما واکنش نشان داده اند.]]></item>
 		<item name="blog.entry.comment.notification.mail.html"><![CDATA[<p>{@$authorList} commented on your blog article <a href="{$entry->getLink()}#comment{@$commentID}">{$entry->getTitle()}</a>:</p>]]></item>
 		<item name="blog.entry.comment.notification.mail.plaintext"><![CDATA[{@$authorList} commented on your blog article “{@$entry->getTitle()}” [URL:{@$entry->getLink()}#comment{@$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="blog.entry.comment.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}A guest{/if} commented on your blog article <strong>{$entry->getTitle()}</strong>.]]></item>
 		<item name="blog.entry.comment.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} commented on your article <strong>{$entry->getTitle()}</strong>.]]></item>
-		<item name="blog.entry.comment.notification.title"><![CDATA[New Comment (Blog Article)]]></item>
+		<item name="blog.entry.comment.notification.title"><![CDATA[نظر جدید(پست وبلاگ)]]></item>
 		<item name="blog.entry.comment.notification.title.stacked"><![CDATA[{#$timesTriggered} new Comments (Blog Article)]]></item>
 		<item name="blog.entry.commentResponse"><![CDATA[Reply to Blog Article Comment]]></item>
 		<item name="blog.entry.commentResponse.like.notification.message"><![CDATA[<strong>{$author}</strong> reacted to your reply to a comment on the blog article <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
@@ -9297,7 +9297,7 @@ Email: [email address of the responsible party]</p><p><br></p><p>The controller 
 		<item name="shadow.invalid.box.com.woltlab.wcf.StaffOnline.title"><![CDATA[Staff-Members Online]]></item>
 		<item name="shadow.invalid.box.com.woltlab.wcf.Statistics.title"><![CDATA[Statistics]]></item>
 		<item name="shadow.invalid.box.com.woltlab.wcf.TodaysBirthdays.title"><![CDATA[Today’s Birthdays]]></item>
-		<item name="shadow.invalid.box.com.woltlab.wcf.TrophyCategories.title"><![CDATA[Categories]]></item>
-		<item name="shadow.invalid.box.com.woltlab.wcf.UsersOnline.title"><![CDATA[Users Online]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wcf.TrophyCategories.title"><![CDATA[بخش ها]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wcf.UsersOnline.title"><![CDATA[کاربران آنلاین]]></item>
 	</category>
 </language>
