@@ -9296,7 +9296,7 @@ Email: [email address of the responsible party]</p><p><br></p><p>The controller 
         <item name="shadow.invalid.box.com.woltlab.wcf.SignedInAs.title"><![CDATA[Signed In As]]></item>
         <item name="shadow.invalid.box.com.woltlab.wcf.StaffOnline.title"><![CDATA[Staff-Members Online]]></item>
         <item name="shadow.invalid.box.com.woltlab.wcf.Statistics.title"><![CDATA[Statistics]]></item>
-        <item name="shadow.invalid.box.com.woltlab.wcf.TodaysBirthdays.title"><![CDATA[Today’s Birthdays]]></item>
+        <item name="shadow.invalid.box.com.woltlab.wcf.TodaysBirthdays.title"><![CDATA[متولدین امروز]]></item>
         <item name="shadow.invalid.box.com.woltlab.wcf.TrophyCategories.title"><![CDATA[بخش ها]]></item>
         <item name="shadow.invalid.box.com.woltlab.wcf.UsersOnline.title"><![CDATA[کاربران آنلاین]]></item>
     </category>
