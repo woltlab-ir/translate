@@ -9254,7 +9254,7 @@ Email: [email address of the responsible party]</p><p><br></p><p>The controller 
         <item name="shadow.invalid.page.com.woltlab.wcf.SignatureEdit.title"><![CDATA[Signature Management]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.Tagged.title"><![CDATA[Content With Particular Tag]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.TagSearch.title"><![CDATA[Search by Tags]]></item>
-        <item name="shadow.invalid.page.com.woltlab.wcf.Team.title"><![CDATA[Team]]></item>
+        <item name="shadow.invalid.page.com.woltlab.wcf.Team.title"><![CDATA[تیم]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.TrophyList.title"><![CDATA[Trophies]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.UnreadArticleList.title"><![CDATA[Unread Articles]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.UserSearch.title"><![CDATA[Search Users]]></item>
