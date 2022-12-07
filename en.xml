@@ -9250,7 +9250,7 @@ Email: [email address of the responsible party]</p><p><br></p><p>The controller 
         <item name="shadow.invalid.page.com.woltlab.wcf.RegisterNewActivationCode.title"><![CDATA[New Activation Code Request]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.Search.title"><![CDATA[Search]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.SearchResult.title"><![CDATA[Search Results]]></item>
-        <item name="shadow.invalid.page.com.woltlab.wcf.Settings.title"><![CDATA[Settings]]></item>
+        <item name="shadow.invalid.page.com.woltlab.wcf.Settings.title"><![CDATA[تنظیمات]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.SignatureEdit.title"><![CDATA[Signature Management]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.Tagged.title"><![CDATA[Content With Particular Tag]]></item>
         <item name="shadow.invalid.page.com.woltlab.wcf.TagSearch.title"><![CDATA[Search by Tags]]></item>
