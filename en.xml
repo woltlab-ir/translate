@@ -95,7 +95,7 @@
         <item name="blog.entry.condition.comments"><![CDATA[نظرات]]></item>
         <item name="blog.entry.condition.isFeatured"><![CDATA[فقط مقالات دارای ویژگی]]></item>
         <item name="blog.entry.condition.timeFrame"><![CDATA[سال]]></item>
-        <item name="blog.entry.condition.timeFrame.description"><![CDATA[This option sets the minimum and maximum age in days of the articles shown in the box.]]></item>
+        <item name="blog.entry.condition.timeFrame.description"><![CDATA[این گزینه حداقل و حداکثر تعداد روز نمایش پست را مشخص می کند.]]></item>
         <item name="blog.entry.date"><![CDATA[تاریخ]]></item>
         <item name="blog.entry.date.error.invalid"><![CDATA[The set date is invalid, the date cannot be in the future.]]></item>
         <item name="blog.entry.delayedPublication"><![CDATA[Article will be published on {@$entry->publicationDate|plainTime}.]]></item>
