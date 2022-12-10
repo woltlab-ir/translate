@@ -97,8 +97,8 @@
         <item name="blog.entry.condition.timeFrame"><![CDATA[سال]]></item>
         <item name="blog.entry.condition.timeFrame.description"><![CDATA[این گزینه حداقل و حداکثر تعداد روز نمایش پست را مشخص می کند.]]></item>
         <item name="blog.entry.date"><![CDATA[تاریخ]]></item>
-        <item name="blog.entry.date.error.invalid"><![CDATA[The set date is invalid, the date cannot be in the future.]]></item>
-        <item name="blog.entry.delayedPublication"><![CDATA[Article will be published on {@$entry->publicationDate|plainTime}.]]></item>
+        <item name="blog.entry.date.error.invalid"><![CDATA[اطلاعات وارد شده اشتباه است تاریخ ها نمی واند مربوط به آینده باشد.]]></item>
+        <item name="blog.entry.delayedPublication"><![CDATA[مقاله در تاریخ  {@$entry->publicationDate|plainTime} منتشر شده است.]]></item>
         <item name="blog.entry.delete"><![CDATA[حذف]]></item>
         <item name="blog.entry.delete.confirmMessage"><![CDATA[آیا می خواهید این مقاله را حذف کنید؟]]></item>
         <item name="blog.entry.delete.success"><![CDATA[این مقاله حذف شده است.]]></item>
@@ -107,19 +107,18 @@
         <item name="blog.entry.edit"><![CDATA[ویرایش مقاله وبلاگ]]></item>
         <item name="blog.entry.editReason"><![CDATA[دلیل ویرایش مقاله(اختیاری)]]></item>
         <item name="blog.entry.enable"><![CDATA[تایید]]></item>
-        <item name="blog.entry.enableComments"><![CDATA[tuhg shcd ]]></item>
-        <item name="blog.entry.enableComments.description"><![CDATA[Allows users to comment on this article.]]></item>
-        <item name="blog.entry.enableDelayedPublication"><![CDATA[Delayed publication]]></item>
-        <item name="blog.entry.entries"><![CDATA[Blog Articles]]></item>
-        <item name="blog.entry.entries.label"><![CDATA[{plural value=$blog->entries one='# Article' other='# Articles'}]]></item>
-        <item name="blog.entry.entryThread.info"><![CDATA[{#$entryThread->replies} {if $entryThread->replies == 1}reply{else}replies{/if}{if $entryThread->replies > 0}, last: {@$entryThread->lastPostTime|time}{/if}]]></item>
-        <item name="blog.entry.entryThread.message"><![CDATA[<p>{@$entry->username} wrote a new blog article: <a href="{@$entry->getLink()}">{$entry->getTitle()}</a>.</p>
-<woltlab-quote>{@$entry->getFormattedExcerpt()}</woltlab-quote>]]></item>
+        <item name="blog.entry.enableComments"><![CDATA[نظرات ]]></item>
+        <item name="blog.entry.enableComments.description"><![CDATA[اجازه به کاربران به ثبت نظر در مقاله.]]></item>
+        <item name="blog.entry.enableDelayedPublication"><![CDATA[انتشار با تاخیر]]></item>
+        <item name="blog.entry.entries"><![CDATA[وبلاگ مقالات]]></item>
+        <item name="blog.entry.entries.label"><![CDATA[{plural value=$blog->entries one='# مقاله' other='# مقاله ها'}]]></item>
+        <item name="blog.entry.entryThread.info"><![CDATA[{#$entryThread->replies} {if $entryThread->replies == 1}پاسخ{else}پاسخ ها{/if}{if $entryThread->replies > 0}, آخرین: {@$entryThread->lastPostTime|time}{/if}]]></item>
+        <item name="blog.entry.entryThread.message"><![CDATA[<p>{@$entry->username} یک مقاله جدید با عنوان <a href="{@$entry->getLink()}">{$entry->getTitle()}</a> دارد.</p> <woltlab-quote>{@$entry->getFormattedExcerpt()}</woltlab-quote>]]></item>
         <item name="blog.entry.entryThread.subject"><![CDATA[{@$entry->subject}]]></item>
-        <item name="blog.entry.featured"><![CDATA[Featured]]></item>
-        <item name="blog.entry.hasOldVersions"><![CDATA[Older Versions]]></item>
-        <item name="blog.entry.information"><![CDATA[Information]]></item>
-        <item name="blog.entry.label.readMore"><![CDATA[Insert [readmore]]]></item>
+        <item name="blog.entry.featured"><![CDATA[امکانات]]></item>
+        <item name="blog.entry.hasOldVersions"><![CDATA[نسخه های قدیمی]]></item>
+        <item name="blog.entry.information"><![CDATA[اطلاعات]]></item>
+        <item name="blog.entry.label.readMore"><![CDATA[درج [readmore]]]></item>
         <item name="blog.entry.like.notification.message"><![CDATA[<strong>{$author}</strong> reacted to your blog article <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
         <item name="blog.entry.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} reacted to your blog article <strong>{$entry->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
         <item name="blog.entry.like.notification.title"><![CDATA[Reaction to your blog article]]></item>
