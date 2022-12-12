@@ -124,7 +124,7 @@
         <item name="blog.entry.like.notification.title"><![CDATA[واکنش دادن مثل کامنت لایک گذاشتن در وبلاگ شما.]]></item>
         <item name="blog.entry.like.notification.title.stacked"><![CDATA[{#$count} واکنش در وبلاگ شما دارد.]]></item>
         <item name="blog.entry.log.trash.summary"><![CDATA[این آیتم توسط {if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}{if $additionalData[reason]} به دلیل: {$additionalData[reason]}{/if}. ({@$time|time}) حذف شد.]]></item>
-        <item name="blog.entry.mention.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> mentioned you in the blog article <a href="{$entry->getLink()}">{$entry->getTitle()}</a>:</p>]]></item>
+        <item name="blog.entry.mention.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> شما مرتبط کرده است در مقاله <a href="{$entry->getLink()}">{$entry->getTitle()}</a>:</p>]]></item>
         <item name="blog.entry.mention.notification.mail.plaintext"><![CDATA[{@$author} mentioned you in the blog article “{@$entry->getTitle()}” [URL:{@$entry->getLink()}]:]]></item>
         <item name="blog.entry.mention.notification.message"><![CDATA[<strong>{$author}</strong> mentioned you in the blog article <strong>{$entry->getTitle()}</strong>.]]></item>
         <item name="blog.entry.mention.notification.title"><![CDATA[You were mentioned]]></item>
