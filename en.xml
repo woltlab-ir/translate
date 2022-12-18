@@ -127,35 +127,35 @@
         <item name="blog.entry.mention.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> شما مرتبط کرده است در مقاله <a href="{$entry->getLink()}">{$entry->getTitle()}</a>:</p>]]></item>
         <item name="blog.entry.mention.notification.mail.plaintext"><![CDATA[{@$author} mentioned you in the blog article “{@$entry->getTitle()}” [URL:{@$entry->getLink()}]:]]></item>
         <item name="blog.entry.mention.notification.message"><![CDATA[<strong>{$author}</strong> mentioned you in the blog article <strong>{$entry->getTitle()}</strong>.]]></item>
-        <item name="blog.entry.mention.notification.title"><![CDATA[You were mentioned]]></item>
+        <item name="blog.entry.mention.notification.title"><![CDATA[شما انتخاب شدید.]]></item>
         <item name="blog.entry.message"><![CDATA[پیام]]></item>
         <item name="blog.entry.moderation.info"><![CDATA[Newly created articles will remain inaccessible until approved by a moderator.]]></item>
         <item name="blog.entry.moderation.redirect"><![CDATA[Your article has been created and will be displayed once approved.]]></item>
         <item name="blog.entry.moreEntries"><![CDATA[مقالات بیشتر]]></item>
         <item name="blog.entry.nextEntry"><![CDATA[مقاله بیشتر]]></item>
-        <item name="blog.entry.noEntries"><![CDATA[There are no blog articles at the moment.]]></item>
+        <item name="blog.entry.noEntries"><![CDATA[هنوز هیچ مقاله ای ثبت نشده است.]]></item>
         <item name="blog.entry.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> wrote the blog article <a href="{$entry->getLink()}">{$entry->getTitle()}</a>:</p>]]></item>
         <item name="blog.entry.notification.mail.plaintext"><![CDATA[{@$author} wrote the blog article “{@$entry->getTitle()}” [URL:{@$entry->getLink()}]:]]></item>
         <item name="blog.entry.notification.message"><![CDATA[<strong>{$author}</strong> wrote the blog article <strong>{$entry->getTitle()}</strong>.]]></item>
-        <item name="blog.entry.notification.title"><![CDATA[New Blog Article]]></item>
-        <item name="blog.entry.previousEntry"><![CDATA[Previous Article]]></item>
-        <item name="blog.entry.publication"><![CDATA[Publication]]></item>
-        <item name="blog.entry.publicationDate"><![CDATA[Publication Date]]></item>
+        <item name="blog.entry.notification.title"><![CDATA[مقاله جدید]]></item>
+        <item name="blog.entry.previousEntry"><![CDATA[مقاله قبلی]]></item>
+        <item name="blog.entry.publication"><![CDATA[انتشار]]></item>
+        <item name="blog.entry.publicationDate"><![CDATA[تاریخ انتشار]]></item>
         <item name="blog.entry.publicationDate.error.invalid"><![CDATA[The publication date is invalid.]]></item>
         <item name="blog.entry.recentActivity.entry"><![CDATA[Wrote the blog article {anchor object=$entry class='blogEntryLink'}.]]></item>
         <item name="blog.entry.recentActivity.entryComment"><![CDATA[Commented on blog article {anchor link=$comment content=$entry class='blogEntryLink'}.]]></item>
         <item name="blog.entry.recentActivity.entryCommentResponse"><![CDATA[Replied to a comment by {user object=$commentAuthor} on blog article {anchor link=$response content=$entry class='blogEntryLink'}.]]></item>
         <item name="blog.entry.recentActivity.likedEntry"><![CDATA[Reacted with <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> to the blog article {anchor object=$entry class='blogEntryLink'}.]]></item>
-        <item name="blog.entry.restore"><![CDATA[Restore]]></item>
-        <item name="blog.entry.setAsFeatured"><![CDATA[Mark as Featured]]></item>
-        <item name="blog.entry.sortField.comments"><![CDATA[Comments]]></item>
-        <item name="blog.entry.sortField.cumulativeLikes"><![CDATA[Reactions]]></item>
-        <item name="blog.entry.sortField.subject"><![CDATA[Title]]></item>
-        <item name="blog.entry.sortField.time"><![CDATA[Date]]></item>
-        <item name="blog.entry.sortField.views"><![CDATA[Views]]></item>
-        <item name="blog.entry.trash"><![CDATA[Move to Trash]]></item>
-        <item name="blog.entry.trash.confirmMessage"><![CDATA[Do you really want to move this article to the trash?]]></item>
-        <item name="blog.entry.trash.reason"><![CDATA[Reason (optional)]]></item>
+        <item name="blog.entry.restore"><![CDATA[بازیابی]]></item>
+        <item name="blog.entry.setAsFeatured"><![CDATA[انتخاب به عنوان گزینه دار]]></item>
+        <item name="blog.entry.sortField.comments"><![CDATA[نظرات]]></item>
+        <item name="blog.entry.sortField.cumulativeLikes"><![CDATA[واکنش ها]]></item>
+        <item name="blog.entry.sortField.subject"><![CDATA[عنوان]]></item>
+        <item name="blog.entry.sortField.time"><![CDATA[تاریخ]]></item>
+        <item name="blog.entry.sortField.views"><![CDATA[تعداد نمایش]]></item>
+        <item name="blog.entry.trash"><![CDATA[انتقال به سطح زباله]]></item>
+        <item name="blog.entry.trash.confirmMessage"><![CDATA[آیا می خواهید به سطل زباله انتقال پیدا کند؟]]></item>
+        <item name="blog.entry.trash.reason"><![CDATA[دلیل(اختیاری)]]></item>
         <item name="blog.entry.unreadEntries"><![CDATA[Unread Blog Articles]]></item>
         <item name="blog.entry.unsetAsFeatured"><![CDATA[Remove Featured Marking]]></item>
         <item name="blog.entry.userEntries"><![CDATA[Blog Articles by {$user->username}]]></item>
