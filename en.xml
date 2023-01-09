@@ -156,10 +156,10 @@
         <item name="blog.entry.trash"><![CDATA[انتقال به سطح زباله]]></item>
         <item name="blog.entry.trash.confirmMessage"><![CDATA[آیا می خواهید به سطل زباله انتقال پیدا کند؟]]></item>
         <item name="blog.entry.trash.reason"><![CDATA[دلیل(اختیاری)]]></item>
-        <item name="blog.entry.unreadEntries"><![CDATA[Unread Blog Articles]]></item>
-        <item name="blog.entry.unsetAsFeatured"><![CDATA[Remove Featured Marking]]></item>
-        <item name="blog.entry.userEntries"><![CDATA[Blog Articles by {$user->username}]]></item>
-        <item name="blog.entry.views"><![CDATA[Views]]></item>
+        <item name="blog.entry.unreadEntries"><![CDATA[مقالات خوانده نشده وبلاگ]]></item>
+        <item name="blog.entry.unsetAsFeatured"><![CDATA[حذف مقالات انتخاب شده]]></item>
+        <item name="blog.entry.userEntries"><![CDATA[مقالات وبلاگ با {$user->username}]]></item>
+        <item name="blog.entry.views"><![CDATA[نمایش ها]]></item>
         <item name="blog.entry.views.count"><![CDATA[{plural value=$entry->views one='# time' other='# times'} read]]></item>
         <item name="blog.entry.watchedEntries"><![CDATA[Watched Blog Articles]]></item>
         <item name="blog.entry.watchedEntries.noEntries"><![CDATA[You are not watching any blog articles at the moment.]]></item>
